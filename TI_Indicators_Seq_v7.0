@@ -1,5 +1,6 @@
-# TI Indicators Seq v7.0
-# to insert it in Pine Editor on Trading View > enables Seqvential Indicators for TA
+# TI Indicators Seq v7.0_20180219 by Alireza Seifi @alirezaseifi 
+# grabbed from https://hackernoon.com/how-to-buy-sell-cryptocurrency-with-number-indicator-td-sequential-5af46f0ebce1
+# to insert it in Pine Editor on Trading View > enables Sequential Indicators for TA
 
 study("Number Indicator / Thomas DeMark Sequential",overlay=true)
 transp=input(0)
