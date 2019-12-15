@@ -2,7 +2,11 @@
 //author: https://www.tradingview.com/u/QuantNomad/
 //@version=4
 strategy(title="UT Bot Strategy", overlay = true)
-//CREDITS to HPotter for the orginal code. The guy trying to sell this as his own is a scammer lol. 
+//UT Bot indicator was inially developer by @Yo_adriiiiaan
+//Idea of original code belongs @HPotter
+//I just took code of Yo_adriiiiaan, cleaned it, deleted all useless pieces of code, transformet to v4 and created a strategy from it.
+//Also I added an input that allows you to swich to signals from Heiking Ashi. I saw that author uses HA for the indicator and on HA it look much nices then on real candles.
+//Do not add this strategy to HA candles, use usual candles and this checkbox.
 
 // Inputs
 a = input(1,     title = "Key Vaule. 'This changes the sensitivity'")
